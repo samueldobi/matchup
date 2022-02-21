@@ -1,0 +1,149 @@
+/* tablets and big screens */
+@media only screen and (min-width : 600px) and (max-width : 1000px){
+    .main-body{
+        height: 600px;
+   }
+   .work-holder img{
+    max-width: 60%;
+   }
+   .how{
+       display: grid;
+       place-items: center;
+   }
+   h3{
+       font-size: 2.5rem;
+   }
+   #work-txt{
+       font-size: 1.6rem;
+       width: 20rem;
+   }
+   .works{
+    height: 60%;
+   }
+   .card-img-top{
+    width: 20rem;
+   }
+   .apply{
+    display: grid;
+    place-items: center;
+   }
+   #wrap-txt{
+       font-size: 2rem;
+   }
+   .us{
+       font-size: 2rem;
+   }
+   .testimony{
+    height: 160vh;
+   }
+   .testimony-box{
+       margin: 40px 0px;
+   }
+  
+}
+
+/* mobile view */
+@media only screen and (min-width : 300px) and (max-width : 600px){
+    h1{
+        font-size: 2.5rem;
+    }
+    .main-body{
+        background-image:url("../images/hero-resize.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size:cover; 
+        width:100vw;
+        height: 420px;
+    }
+    #intro-txt{
+        width:60vw;
+        font-size: 1.2rem;
+    }
+    #cta-btn{
+    font-size: 0.9rem;
+    padding: 5px;
+    word-spacing: 5px;
+    max-width: 150px;
+    }
+    #cta-btn img{
+        width: 30%;
+    }
+    .how{
+        display: grid;
+        place-items: center;
+    }
+    .works{
+        height: 150vh;
+    }
+    .testimony{
+        height: 155vh;
+    }
+    .testimony-box{
+        margin: 40px 40px;
+        width: 80vw;
+        display: grid;
+        place-items: center;
+    }
+    #now{
+        margin: 20px 0px;
+    }
+}
+/* nest hub */
+@media only screen and (min-width : 1010px) and (max-width : 1060px){
+    .testimony{
+        height: 100vh;
+    }
+}
+/* iphone se */
+@media only screen and (min-width : 340px) and (max-width : 380px)
+{
+    .works{
+        height: 175vh;
+    }
+    .testimony{
+        height: 190vh;
+    }
+}
+/* extremely small screens */
+@media only screen and (min-width : 150px) and (max-width : 300px){
+    .main-body{
+        background-image:url("../images/hero-resize.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size:cover; 
+        width:100vw;
+        height: 340px;
+    }
+    h1{
+        font-size: 1.5rem;
+    }
+    #intro-txt{
+        width:53vw;
+        font-size: 1rem;
+    }
+    #cta-btn{
+        font-size: 0.9rem;
+        padding: 5px;
+        word-spacing: 5px;
+        max-width: 130px;
+        }
+        #cta-btn img{
+            width: 20%;
+        }
+    .meet{
+    margin-top:5rem;
+        }
+    .how{
+            display: grid;
+            place-items: center;
+        }
+        .works{
+            height: 185vh;
+        }
+        .testimony{
+            height: 200vh;
+        }
+    #register-txt{
+        font-size: 1.5rem;
+    }
+}

@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'open-sans' sans-serif;
+}
+body{
+    /* overflow: hidden; */
+}
+.nav-item> a>.log-btn{
+    border: 1px solid #F16868;
+    border-radius: 5px;
+    padding: 5px 15px;
+    margin: 10px;
+    color:#F16868;
+}
+.nav-item> a>.log-btn:hover{
+    background-color: #F16868;
+    color: #fff;
+}
+.main-body{
+     background-image:url("../images/bg-image.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover; 
+    width:100vw;
+    height: 700px;
+}
+#m-up{
+    color:#F16868;
+}
+.meet{
+    margin-top:7rem;
+}
+h1{
+    font-size: 4.5rem;
+}
+#intro-txt{
+    font-size: 1.7rem;
+}
+#cta-btn{
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: 1px solid #F16868;
+    border-radius: 10px;
+    padding: 5px;
+    color: #fff;
+    word-spacing: 5px;
+    background-color: #F16868;
+    max-width: 220px;
+}
+.works{
+    height: 75vh;
+}
+.work-row{
+     background-color: #fff;
+     border-radius: 15px;
+     transform: translateY(-2rem);
+}
+h2{
+    text-align: center;
+    padding: 30px 0px;
+}
+h4{
+    text-align: center;
+}
+.works{
+    background-color: #f1f3f2;
+}
+.work-holder img{
+    max-width: 80%;
+}
+#work-txt{
+    padding: 5px;
+    margin: 10px;
+    font-weight:500;
+}
+.card{
+    border-top-left-radius:20px ;
+    border-top-right-radius:20px ;
+    margin: 10px 0px;
+}
+.card-img-top{
+    height: 17rem;
+}
+#info img{
+    width:2rem;
+}
+h5{
+    text-align: center;
+    color: #F16868;
+}
+h5 img{
+    width: 2rem;
+}
+.testimony{
+    background-color:#f1f3f2 ;
+    width: 100vw;
+    height: 85vh;
+}
+.testimony-box{
+    background-color:#fff ;
+    box-shadow: 3px 5px 21px 0px rgba(0,0,0,0.54);
+    display: grid;
+    place-items: center;
+}
+.testimony-box img{
+    border-radius: 50%;
+    transform: translateY(30px);
+    width:4.5rem;
+}
+#wrap-txt{
+    text-align: left;
+}
+.register{
+    background-color:#FAD3D4 ;
+}
+#now{
+    border: 1px solid #F16868;
+    border-radius: 10px;
+    padding: 5px;
+    color: #fff;
+    word-spacing: 5px;
+    background-color: #F16868;
+}
+.icons img{
+    padding: 5px;
+    margin:5px ;
+}
+#sd{
+    text-align: center;
+}
+
+
+
