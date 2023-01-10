@@ -4,15 +4,13 @@
     margin: 0;
     box-sizing: border-box;
     font-family:'open-sans' sans-serif;
-}
-body{
-    /* overflow: hidden; */
+    /* border: 1px solid red; */
 }
 .nav-item> a>.log-btn{
     border: 1px solid #F16868;
     border-radius: 5px;
-    padding: 5px 15px;
-    margin: 10px;
+    /* padding:5px; */
+    margin:5px ;
     color:#F16868;
 }
 .nav-item> a>.log-btn:hover{
@@ -24,7 +22,7 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover; 
-    width:100vw;
+    width:100%;
     height: 700px;
 }
 #m-up{
@@ -96,7 +94,7 @@ h5 img{
 }
 .testimony{
     background-color:#f1f3f2 ;
-    width: 100vw;
+    width: 100%;
     height: 85vh;
 }
 .testimony-box{
