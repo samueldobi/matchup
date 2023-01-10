@@ -22,7 +22,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover; 
-    width:100vw;
+    width:100%;
     height: 700px;
 }
 #m-up{
@@ -94,7 +94,7 @@ h5 img{
 }
 .testimony{
     background-color:#f1f3f2 ;
-    width: 100vw;
+    width: 100%;
     height: 85vh;
 }
 .testimony-box{
